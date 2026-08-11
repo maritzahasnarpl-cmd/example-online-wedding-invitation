@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0d0c">
+  <meta name="description" content="Undangan pernikahan Caca & Ahmad - 25 Juni 2033">
+  <title>Caca & Ahmad — The Wedding</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- OPENING -->
+  <div class="opening" id="opening">
+    <div class="opening-bg"></div>
+    <div class="opening-content">
+      <p class="eyebrow">THE WEDDING OF</p>
+      <h1>Caca <span>&</span> Ahmad</h1>
+      <p class="opening-date">25 • 06 • 2033</p>
+      <p class="guest">Kepada Yth.<br><strong>Tamu Undangan</strong></p>
+      <button class="btn btn-gold" id="openInvitation">Buka Undangan</button>
+    </div>
+  </div>
+
+  <!-- MUSIC -->
+  <audio id="weddingMusic" loop preload="auto">
+    <source src="weeding-nasheed.mp3" type="audio/mpeg">
+  </audio>
+  <button class="music-btn" id="musicBtn" aria-label="Putar musik">
+    <span>♫</span>
+  </button>
+
+  <main id="mainContent">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow light">BISMILLAHIRRAHMANIRRAHIM</p>
+        <p class="small-light">Dengan memohon rahmat dan ridho Allah SWT</p>
+        <h1>Caca <span>&</span> Ahmad</h1>
+        <p class="date-script">25 Juni 2033</p>
+        <div class="ornament">✦</div>
+      </div>
+    </section>
+
+    <!-- QUOTE -->
+    <section class="quote section-dark">
+      <div class="container narrow reveal">
+        <div class="arabic">وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُمْ مِنْ أَنْفُسِكُمْ أَزْوَاجًا</div>
+        <p class="translation">
+          “Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu
+          pasangan-pasangan dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya.”
+        </p>
+        <span class="source">— QS. Ar-Rum: 21</span>
+      </div>
+    </section>
+
+    <!-- COUPLE -->
+    <section class="couple section-ivory">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow gold-text">THE BRIDE & GROOM</p>
+          <h2>Assalamu'alaikum</h2>
+          <p>Dengan penuh kebahagiaan, kami mengundang Bapak/Ibu/Saudara/i untuk hadir dalam hari bahagia kami.</p>
+        </div>
+
+        <div class="couple-grid">
+          <article class="person reveal">
+            <div class="portrait-frame">
+              <img src="prewed9.png" alt="Caca">
+            </div>
+            <p class="role">THE BRIDE</p>
+            <h3>Caca</h3>
+            <p class="fullname">Maritza Hasna Nathania</p>
+            <p class="parents">Putri dari<br><em>Nama Ayah & Nama Ibu</em></p>
+          </article>
+
+          <div class="ampersand reveal">&</div>
+
+          <article class="person reveal">
+            <div class="portrait-frame">
+              <img src="prewed10.png" alt="Ahmad">
+            </div>
+            <p class="role">THE GROOM</p>
+            <h3>Ahmad</h3>
+            <p class="fullname">Ahmad Rezaie</p>
+            <p class="parents">Putra dari<br><em>Nama Ayah & Nama Ibu</em></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- COUNTDOWN -->
+    <section class="countdown-section">
+      <div class="countdown-bg"></div>
+      <div class="container reveal">
+        <p class="eyebrow light">COUNTING THE DAYS</p>
+        <h2>Menuju Hari Bahagia</h2>
+        <div class="countdown" id="countdown">
+          <div><strong id="days">0</strong><span>Hari</span></div>
+          <div><strong id="hours">0</strong><span>Jam</span></div>
+          <div><strong id="minutes">0</strong><span>Menit</span></div>
+          <div><strong id="seconds">0</strong><span>Detik</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EVENTS -->
+    <section class="events section-ivory">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow gold-text">SAVE THE DATE</p>
+          <h2>Rangkaian Acara</h2>
+        </div>
+
+        <div class="event-grid">
+          <article class="event-card reveal">
+            <div class="event-icon">☾</div>
+            <p class="event-label">AKAD NIKAH</p>
+            <h3>25 Juni 2033</h3>
+            <p class="event-time">Waktu akan diinformasikan</p>
+            <div class="line"></div>
+            <p><strong>Mekkah, Arab Saudi</strong></p>
+            <p>Tempat akad akan diinformasikan lebih lanjut.</p>
+          </article>
+
+          <article class="event-card reveal">
+            <div class="event-icon">✦</div>
+            <p class="event-label">RESEPSI</p>
+            <h3>5 Juli 2033</h3>
+            <p class="event-time">Waktu akan diinformasikan</p>
+            <div class="line"></div>
+            <p><strong>Jl. KH Mabruk</strong></p>
+            <p>RT/RW 01/01</p>
+            <a class="btn btn-outline" href="https://maps.app.goo.gl/5EA6JMtArK3UvsVVA" target="_blank" rel="noopener">
+              Lihat Lokasi
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery section-dark">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow gold-text">OUR MOMENTS</p>
+          <h2>Prewedding</h2>
+          <p>Beberapa momen yang kami abadikan dalam perjalanan menuju hari istimewa.</p>
+        </div>
+
+        <div class="prewed-slider" id="prewedSlider">
+          <button class="slider-arrow prev" id="prevSlide" aria-label="Foto sebelumnya">‹</button>
+          <div class="slider-stage">
+            <div class="slide-counter"><span id="slideNumber">01</span> / 10</div>
+            <div class="prewed-slide active"><img src="prewed1.png" alt="Prewedding 1"></div>
+            <div class="prewed-slide"><img src="prewed2.png" alt="Prewedding 2"></div>
+            <div class="prewed-slide"><img src="prewed3.png" alt="Prewedding 3"></div>
+            <div class="prewed-slide"><img src="prewed4.png" alt="Prewedding 4"></div>
+            <div class="prewed-slide"><img src="prewed5.png" alt="Prewedding 5"></div>
+            <div class="prewed-slide"><img src="prewed6.png" alt="Prewedding 6"></div>
+            <div class="prewed-slide"><img src="prewed7.png" alt="Prewedding 7"></div>
+            <div class="prewed-slide"><img src="prewed8.png" alt="Prewedding 8"></div>
+            <div class="prewed-slide"><img src="prewed9.png" alt="Prewedding 9 — Caca"></div>
+            <div class="prewed-slide"><img src="prewed10.png" alt="Prewedding 10 — Ahmad"></div>
+          </div>
+          <button class="slider-arrow next" id="nextSlide" aria-label="Foto berikutnya">›</button>
+          <div class="slider-dots" id="sliderDots" aria-label="Pilih foto"></div>
+        </div>
+        <p class="slider-caption" id="slideCaption">Satu langkah, satu doa, satu tujuan.</p>
+      </div>
+    </section>
+
+    <!-- STORY -->
+    <section class="story section-ivory">
+      <div class="container narrow">
+        <div class="section-heading reveal">
+          <p class="eyebrow gold-text">OUR STORY</p>
+          <h2>Menuju Satu Tujuan</h2>
+        </div>
+
+        <div class="journey-intro reveal">
+          <div class="journey-route">
+            <span>🇮🇩 Indonesia</span>
+            <i>✦ ───────── ✦</i>
+            <span>🇦🇫 Afghanistan</span>
+          </div>
+          <p>
+            Ada kisah yang dimulai tanpa rencana besar. Hanya sebuah pesan sederhana,
+            percakapan yang berlanjut, lalu perlahan berubah menjadi rasa nyaman.
+            Jarak yang membentang ribuan kilometer ternyata tidak selalu mampu
+            memisahkan dua hati yang sama-sama ingin memperjuangkan satu tujuan.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span>01</span>
+            <div>
+              <small>2026 · AWAL CERITA</small>
+              <h3>Sebuah Pesan di Telegram</h3>
+              <p>
+                Tahun 2026 menjadi halaman pertama kisah kami. Kami pertama kali saling mengenal
+                melalui Telegram, dari percakapan yang awalnya sederhana hingga menjadi obrolan
+                yang perlahan terasa berbeda. Tidak ada yang tahu bahwa sebuah perkenalan dari
+                layar kecil akan membawa kami sejauh ini. Dari sapaan, cerita tentang hari-hari,
+                tawa, kekhawatiran, sampai hal-hal kecil yang biasanya hanya dibagikan kepada
+                orang yang dipercaya, semuanya menjadi awal dari sesuatu yang belum kami mengerti
+                saat itu.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span>02</span>
+            <div>
+              <small>2026 · MULAI DEKAT</small>
+              <h3>Dua Negara, Satu Percakapan</h3>
+              <p>
+                Kami berada di dua tempat yang berbeda: Indonesia dan Afghanistan. Ada jarak,
+                perbedaan waktu, kesibukan, dan hari-hari ketika percakapan tidak bisa berlangsung
+                sepanjang yang kami inginkan. Namun justru dari jarak itu kami belajar mengenal
+                satu sama lain dengan lebih dalam. Kami belajar menunggu balasan, memahami
+                kesibukan masing-masing, dan tetap menyisihkan waktu hanya untuk bertanya,
+                “Hari ini kamu baik-baik saja?”
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span>03</span>
+            <div>
+              <small>2027 · BELAJAR MENUNGGU</small>
+              <h3>LDR Mengajarkan Kesabaran</h3>
+              <p>
+                Menjalani hubungan dengan jarak yang jauh tidak selalu mudah. Ada malam ketika
+                rasa rindu terasa lebih panjang daripada percakapan, ada hari ketika kami hanya
+                bisa saling menguatkan dari balik layar. Kami tidak bisa bertemu kapan pun kami
+                mau, tidak bisa hadir dalam setiap momen penting, dan tidak bisa menghapus jarak
+                hanya dengan sebuah pelukan. Tetapi kami belajar bahwa hadir tidak selalu berarti
+                berada di tempat yang sama. Kadang hadir berarti mendengarkan, memahami, menjaga
+                kepercayaan, dan tetap memilih orang yang sama meski keadaan tidak sederhana.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span>04</span>
+            <div>
+              <small>2028 · BERTUMBUH BERSAMA</small>
+              <h3>Rindu yang Tidak Lagi Menakutkan</h3>
+              <p>
+                Waktu membuat kami semakin mengerti bahwa hubungan bukan hanya tentang momen
+                bahagia. Kami mulai belajar berkomunikasi ketika ada perbedaan, saling memberi
+                ruang ketika lelah, dan kembali mencari jalan ketika keadaan terasa berat.
+                Rindu yang dulu terasa seperti hambatan perlahan berubah menjadi pengingat:
+                ada seseorang di kejauhan yang selalu ingin kami temui dan bahagiakan.
+                Sedikit demi sedikit, kami mulai berbicara bukan hanya tentang hari ini,
+                tetapi juga tentang masa depan.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span>05</span>
+            <div>
+              <small>2029 · SATU NIAT</small>
+              <h3>Dari “Kita” Menjadi “Selamanya”</h3>
+              <p>
+                Setelah melewati begitu banyak percakapan, penantian, dan doa, kami mulai memahami
+                bahwa hubungan ini ingin kami bawa ke arah yang lebih serius. Kami belajar bahwa
+                cinta bukan sekadar perasaan yang datang dan pergi, melainkan keputusan untuk
+                terus berusaha ketika keadaan tidak mudah. Indonesia dan Afghanistan bukan lagi
+                sekadar dua titik yang berjauhan di peta, melainkan dua tempat yang menjadi saksi
+                bagaimana kami menjaga satu cerita yang sama.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span>06</span>
+            <div>
+              <small>2030 · MEMANTAPKAN HATI</small>
+              <h3>Menyiapkan Hari yang Kami Doakan</h3>
+              <p>
+                Kami mulai menata lebih banyak hal untuk masa depan. Bukan hanya tentang kapan
+                bisa bertemu, tetapi tentang bagaimana kelak kami membangun rumah, keluarga,
+                dan kehidupan yang penuh keberkahan. Setiap rencana terasa seperti langkah kecil
+                menuju satu pintu besar. Di antara doa yang panjang dan harapan yang terus kami
+                jaga, kami percaya bahwa jika Allah mengizinkan, semua jarak yang pernah kami
+                lewati akan menjadi bagian indah dari perjalanan menuju pertemuan yang sebenarnya.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span>07</span>
+            <div>
+              <small>2031–2032 · MENDEKAT KE PELAMINAN</small>
+              <h3>Jarak Menjadi Sebuah Kenangan</h3>
+              <p>
+                Tahun-tahun berlalu dan kami semakin dekat pada hari yang dulu hanya berani kami
+                bayangkan dalam percakapan. Perjalanan panjang, LDR, perbedaan waktu, rasa rindu,
+                dan semua penantian perlahan menemukan jawabannya. Kami menyadari bahwa perjalanan
+                ini tidak sempurna, tetapi justru di sanalah kami menemukan arti memperjuangkan
+                seseorang. Setiap kali hampir menyerah pada jarak, kami kembali mengingat tujuan
+                yang sama: bukan sekadar bertahan bersama, tetapi sampai pada satu hari ketika
+                kami tidak perlu lagi mengucapkan selamat malam melalui layar dari dua negara
+                yang berbeda.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal final-destination">
+            <span>08</span>
+            <div>
+              <small>2033 · SATU TUJUAN</small>
+              <h3>Menuju Pelaminan</h3>
+              <p>
+                Dan akhirnya, setelah perjalanan panjang sejak perkenalan di Telegram pada 2026,
+                setelah ribuan pesan, doa, penantian, perbedaan waktu, dan jarak Indonesia —
+                Afghanistan, kami sampai pada satu tujuan yang sama. Hari ketika “kapan kita
+                bertemu?” berubah menjadi “akhirnya kita bersama.” Hari ketika dua keluarga,
+                dua perjalanan, dan dua hati dipertemukan dalam satu niat yang insyaAllah suci.
+                Kami tidak ingin melupakan bagaimana cerita ini dimulai, karena justru dari
+                awal yang sederhana itulah kami belajar menghargai setiap langkah yang membawa
+                kami ke sini. Semoga pernikahan ini menjadi awal perjalanan yang jauh lebih
+                panjang: berjalan berdampingan, saling menjaga, saling menguatkan, dan bersama-sama
+                pulang kepada ridha Allah SWT.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RSVP -->
+    <section class="rsvp">
+      <div class="container narrow reveal">
+        <p class="eyebrow gold-text">RSVP & WISHES</p>
+        <h2>Doa & Ucapan</h2>
+        <p>Berikan doa dan ucapan terbaik untuk Caca & Ahmad.</p>
+
+        <form id="rsvpForm" class="rsvp-form">
+          <input id="guestName" type="text" placeholder="Nama Anda" required>
+          <select id="attendance" required>
+            <option value="">Konfirmasi kehadiran</option>
+            <option value="Hadir">Hadir</option>
+            <option value="Tidak Hadir">Tidak Hadir</option>
+            <option value="Masih Ragu">Masih Ragu</option>
+          </select>
+          <textarea id="message" rows="4" placeholder="Tulis ucapan & doa..." required></textarea>
+          <button class="btn btn-gold" type="submit">Kirim Ucapan</button>
+        </form>
+
+        <div id="wishList" class="wish-list"></div>
+      </div>
+    </section>
+
+    <!-- GIFT -->
+    <section class="gift section-dark">
+      <div class="container narrow reveal">
+        <p class="eyebrow gold-text">WEDDING GIFT</p>
+        <h2>Tanda Kasih</h2>
+        <p>
+          Kehadiran dan doa restu Anda adalah hadiah yang paling berarti bagi kami.
+          Jika berkenan memberikan tanda kasih, dapat melalui DANA berikut.
+        </p>
+        <div class="bank-card luxury-gift-card">
+          <span class="bank-label">DIGITAL WEDDING GIFT</span>
+          <div class="gift-icon">✦</div>
+          <h3>DANA</h3>
+          <p class="account-number" id="danaNumber">087871475059</p>
+          <p class="account-name">Atas nama Caca</p>
+          <button class="btn btn-gold" id="copyDana" type="button">Salin Nomor DANA</button>
+          <span class="copy-status" id="copyStatus" aria-live="polite"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLOSING -->
+    <section class="closing">
+      <div class="closing-bg"></div>
+      <div class="closing-content reveal">
+        <p class="eyebrow light">TERIMA KASIH</p>
+        <h2>Caca <span>&</span> Ahmad</h2>
+        <p>Semoga Allah SWT menyatukan kami dalam sakinah, mawaddah, warahmah.</p>
+        <div class="ornament">✦</div>
+        <small>25 Juni 2033</small>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button id="closeLightbox" aria-label="Tutup">×</button>
+    <img id="lightboxImage" src="" alt="Prewedding">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
